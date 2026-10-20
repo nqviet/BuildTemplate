@@ -1,0 +1,19 @@
+{
+  "name": "com.laboon.mobile-ios",
+  "version": "0.1.0",
+  "displayName": "Laboon Mobile iOS",
+  "description": "iOS scene lifecycle native plugin (UIScene support for Unity 2022.3), release Info.plist post-processing and a config-driven .app/.xcarchive verifier.",
+  "unity": "2022.3",
+  "author": { "name": "Laboon" },
+  "dependencies": {
+    "com.laboon.mobile-build": "0.1.0"
+  },
+  "keywords": ["ios", "uiscene", "xcode", "release"],
+  "samples": [
+    {
+      "displayName": "Legacy Scene Delegate Alias",
+      "description": "Keeps an old project-specific UISceneDelegateClassName working for one release while migrating to MobileSceneDelegate.",
+      "path": "Samples~/LegacySceneDelegateAlias"
+    }
+  ]
+}

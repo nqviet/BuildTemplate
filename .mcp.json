@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "ai-game-developer": {
+      "headers": {
+        "Authorization": "Bearer agd_pk_UWWf36oJNBP5S7muLbaihBbsyOo0XHx9soXHI_hju4w"
+      },
+      "type": "http",
+      "url": "https://ai-game.dev/mcp/p/85c51b88"
+    },
+    "blender": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\blender_mcp\\mcp",
+        "run",
+        "blender-mcp"
+      ]
+    }
+  }
+}

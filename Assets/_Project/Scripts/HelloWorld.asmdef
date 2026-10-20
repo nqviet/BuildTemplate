@@ -1,0 +1,13 @@
+{
+    "name": "HelloWorld",
+    "rootNamespace": "HelloWorld",
+    "references": [
+        "Laboon.Mobile.Core",
+        "Laboon.Mobile.Ads",
+        "Laboon.Mobile.TouchInput",
+        "Laboon.Mobile.Haptics",
+        "Unity.InputSystem",
+        "UnityEngine.UI"
+    ],
+    "autoReferenced": true
+}

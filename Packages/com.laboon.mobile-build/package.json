@@ -1,0 +1,12 @@
+{
+  "name": "com.laboon.mobile-build",
+  "version": "0.1.0",
+  "displayName": "Laboon Mobile Build",
+  "description": "Editor-only, profile-driven Android/iOS build pipeline: MobileBuildProfile asset, PlayerSettings snapshot/restore, version window, Gradle template validation and IMobileBuildHook extension points.",
+  "unity": "2022.3",
+  "author": { "name": "Laboon" },
+  "dependencies": {
+    "com.laboon.mobile-core": "0.1.0"
+  },
+  "keywords": ["mobile", "build", "android", "ios", "ci"]
+}

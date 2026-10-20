@@ -1,0 +1,17 @@
+{
+  "description": "Example release config. Copy to the project (for example scripts/ios_release_config.json) and edit.",
+  "expected_bundle_id": "com.company.game",
+  "require_scene_manifest": true,
+  "require_scene_marker": true,
+  "marker_key": "LaboonSceneLifecycle",
+  "require_encryption_declaration": true,
+  "framework_path": "Frameworks/UnityFramework.framework",
+  "required_sdk_bundles": [
+    { "name": "Firebase_FirebaseCore.bundle", "required_data_types": [] },
+    { "name": "Firebase_FirebaseCrashlytics.bundle", "required_data_types": ["NSPrivacyCollectedDataTypeCrashData"] }
+  ],
+  "privacy_url": {
+    "file": "Assets/Scenes/MainScene.unity",
+    "pattern": "^  _privacyUrl: (.+)$"
+  }
+}

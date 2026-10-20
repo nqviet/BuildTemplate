@@ -1,0 +1,19 @@
+{
+    "name": "Laboon.Mobile.IOS.Editor",
+    "rootNamespace": "Laboon.Mobile.IOS",
+    "references": [
+        "Laboon.Mobile.IOS",
+        "Laboon.Mobile.Build.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

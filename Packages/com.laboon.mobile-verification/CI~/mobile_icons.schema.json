@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Laboon mobile icon manifest",
+  "type": "object",
+  "required": ["icons"],
+  "properties": {
+    "settings_path": { "type": "string", "default": "ProjectSettings/ProjectSettings.asset" },
+    "source": {
+      "description": "Optional approved artwork the icons are derived from.",
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": { "path": { "type": "string" }, "sha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" } }
+    },
+    "icons": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "path"],
+        "properties": {
+          "id": { "type": "string" },
+          "path": { "type": "string", "description": "Project-relative PNG path; its .meta GUID is used for slot checks." },
+          "sha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
+          "size": { "type": "array", "items": { "type": "integer" }, "minItems": 2, "maxItems": 2, "default": [1024, 1024] }
+        }
+      }
+    },
+    "slots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target", "icons"],
+        "properties": {
+          "label": { "type": "string" },
+          "target": { "type": "string", "description": "m_BuildTarget value: iPhone, Android, ..." },
+          "kind": { "type": ["integer", "null"], "description": "m_Kind filter (Android: 0 legacy, 1 round, 2 adaptive). Null = all entries." },
+          "icons": { "type": "array", "items": { "type": "string" }, "description": "Icon ids in texture order." }
+        }
+      }
+    },
+    "ios_export_icon": { "type": "string", "description": "Icon id compared with the exported Icon-Store-1024.png." }
+  }
+}

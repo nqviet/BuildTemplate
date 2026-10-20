@@ -1,0 +1,12 @@
+{
+  "mcp": {
+    "ai-game-developer": {
+      "enabled": true,
+      "type": "remote",
+      "headers": {
+        "Authorization": "Bearer agd_pk_UWWf36oJNBP5S7muLbaihBbsyOo0XHx9soXHI_hju4w"
+      },
+      "url": "https://ai-game.dev/mcp/p/85c51b88"
+    }
+  }
+}

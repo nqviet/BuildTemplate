@@ -1,0 +1,18 @@
+{
+  "$schema": "./mobile_icons.schema.json",
+  "source": { "path": "docs/source-art/app-icon/app-icon.png", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+  "icons": [
+    { "id": "ios", "path": "Assets/Art/AppIcon/AppIcon_iOS_1024.png", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+    { "id": "android", "path": "Assets/Art/AppIcon/AppIcon_1024.png" },
+    { "id": "android_round", "path": "Assets/Art/AppIcon/AppIcon_Round_1024.png" },
+    { "id": "adaptive_background", "path": "Assets/Art/AppIcon/AppIcon_Adaptive_Background_1024.png" },
+    { "id": "adaptive_foreground", "path": "Assets/Art/AppIcon/AppIcon_Adaptive_Foreground_1024.png" }
+  ],
+  "slots": [
+    { "label": "iOS icon", "target": "iPhone", "kind": null, "icons": ["ios"] },
+    { "label": "Android standard icon", "target": "Android", "kind": 0, "icons": ["android"] },
+    { "label": "Android round icon", "target": "Android", "kind": 1, "icons": ["android_round"] },
+    { "label": "Android adaptive icon", "target": "Android", "kind": 2, "icons": ["adaptive_background", "adaptive_foreground"] }
+  ],
+  "ios_export_icon": "ios"
+}

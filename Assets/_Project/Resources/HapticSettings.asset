@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945eadb22f1e9e347b3850a0e05d3df0, type: 3}
+  m_Name: HapticSettings
+  m_EditorClassIdentifier: 
+  PreferenceKey: Laboon_HapticsEnabled
+  MinimumInterval: 0.3
+  TickInterval: 0.08
+  Preview:
+    Style: 1
+    Intensity: 0.8
+    AndroidDurationMs: 12
+    PulseCount: 1
+    GapMs: 100
+  Launch:
+    Style: 0
+    Intensity: 0.7
+    AndroidDurationMs: 10
+    PulseCount: 1
+    GapMs: 100
+  Complete:
+    Style: 3
+    Intensity: 0.9
+    AndroidDurationMs: 20
+    PulseCount: 1
+    GapMs: 100
+  Booster:
+    Style: 1
+    Intensity: 0.8
+    AndroidDurationMs: 16
+    PulseCount: 1
+    GapMs: 100
+  Success:
+    Style: 3
+    Intensity: 1
+    AndroidDurationMs: 24
+    PulseCount: 2
+    GapMs: 110
+  Failure:
+    Style: 2
+    Intensity: 0.8
+    AndroidDurationMs: 16
+    PulseCount: 1
+    GapMs: 100
+  Tick:
+    Style: 0
+    Intensity: 0.6
+    AndroidDurationMs: 8
+    PulseCount: 1
+    GapMs: 100
+  Impact:
+    Style: 1
+    Intensity: 0.75
+    AndroidDurationMs: 10
+    PulseCount: 1
+    GapMs: 100

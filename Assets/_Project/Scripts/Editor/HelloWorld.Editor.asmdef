@@ -1,0 +1,9 @@
+{
+    "name": "HelloWorld.Editor",
+    "rootNamespace": "HelloWorld.Editor",
+    "references": [
+        "Laboon.Mobile.Core",
+        "Laboon.Mobile.Build.Editor"
+    ],
+    "includePlatforms": [ "Editor" ]
+}

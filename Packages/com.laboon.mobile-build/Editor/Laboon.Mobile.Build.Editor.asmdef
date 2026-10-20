@@ -1,0 +1,18 @@
+{
+    "name": "Laboon.Mobile.Build.Editor",
+    "rootNamespace": "Laboon.Mobile.Build",
+    "references": [
+        "Laboon.Mobile.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

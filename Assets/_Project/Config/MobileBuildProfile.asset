@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c94d7c076dc9c4ca5306f48a640a04, type: 3}
+  m_Name: MobileBuildProfile
+  m_EditorClassIdentifier: 
+  m_ApplicationId: com.laboon.helloworld
+  m_ProductName: Hello World
+  m_CompanyName: Laboon
+  m_Orientation: 0
+  m_ApplyPlayerSettings: 1
+  m_RestorePlayerSettings: 0
+  m_AndroidMinSdk: 25
+  m_AndroidTargetSdk: 0
+  m_AndroidArchitectures: 2
+  m_ScriptingBackend: 1
+  m_BuildAppBundle: 0
+  m_AndroidOutputPath: Builds/Android/HelloWorld.apk
+  m_AndroidReleaseOutputPath: 
+  m_ValidateGradleTemplates: 1
+  m_IosMinimumVersion: 15.0
+  m_IosTeamId: 
+  m_IosAutomaticSigning: 1
+  m_IosOutputPath: Builds/iOS/HelloWorld
+  m_UseEditorBuildSettingsScenes: 1
+  m_Scenes: []

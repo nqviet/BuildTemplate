@@ -1,0 +1,12 @@
+{
+  "name": "com.laboon.mobile-haptics",
+  "version": "0.1.0",
+  "displayName": "Laboon Mobile Haptics",
+  "description": "Cue-based mobile haptics with a pulse budget, a saved preference, an iOS UIImpactFeedbackGenerator bridge and an Android vibrator backend. Native failures never reach gameplay code.",
+  "unity": "2022.3",
+  "author": { "name": "Laboon" },
+  "dependencies": {
+    "com.laboon.mobile-core": "0.1.0"
+  },
+  "keywords": ["mobile", "haptics", "vibration", "ios", "android"]
+}

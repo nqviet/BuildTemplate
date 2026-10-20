@@ -1,0 +1,17 @@
+{
+  "name": "com.laboon.mobile-firebase",
+  "version": "0.1.0",
+  "displayName": "Laboon Mobile Firebase (Template)",
+  "description": "Optional template only. Samples for wiring a project-local Firebase SDK into the kit: crash reporter adapter, IMobileBuildHook for Gradle/SwiftPM resources, and the SDK resource copy script. Contains no compiled code and no Firebase dependency.",
+  "unity": "2022.3",
+  "author": { "name": "Laboon" },
+  "dependencies": {},
+  "keywords": ["firebase", "crashlytics", "template"],
+  "samples": [
+    {
+      "displayName": "Firebase Crashlytics Integration",
+      "description": "FirebaseCrashReporter (ICrashReporter), FirebaseBuildHook (IMobileBuildHook) and copy_ios_sdk_resources.sh. Import into a project that already has the Firebase Unity SDK.",
+      "path": "Samples~/FirebaseCrashlytics"
+    }
+  ]
+}

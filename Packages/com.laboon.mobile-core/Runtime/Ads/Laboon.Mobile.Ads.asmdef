@@ -1,0 +1,16 @@
+{
+    "name": "Laboon.Mobile.Ads",
+    "rootNamespace": "Laboon.Mobile.Ads",
+    "references": [
+        "Laboon.Mobile.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
